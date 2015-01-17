@@ -26,7 +26,6 @@ list_of_images = [
 # /usr/myprojects/cordova_project (or ionic project)
 
 # lets also assume that cordova_project is the application name
-
 injector = CordovaImages::Injector.new(
     :app_name => 'cordova_project',
     :root_cordova_app_dir => '/usr/myprojects/cordova_project',
