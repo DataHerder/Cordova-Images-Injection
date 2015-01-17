@@ -19,6 +19,13 @@ list_of_images = [
     '/my/full/directory/ios/image-4.png',
 ]
 
+# if you are exporting from an adobe product or the like,
+# perhaps it's easier to export all files to the same directory
+# especially if you are using something like artboards in illustrator
+# it doesn't matter where you save the pictures, as long
+# as they match up to the specificied dimensions laid out
+# in the spec sheets for each mobile environment
+
 # lets say that your root cordova project exists here:
 # /usr/myprojects/cordova_project (or ionic project)
 
