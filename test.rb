@@ -12,15 +12,12 @@ load 'CordovaImagesInjector.rb'
 # it looks for images based on width x height
 list_of_images = [
     # these are the android images
-    '/my/full/directory/image-1.png',
-    '/my/full/directory/image-2.png',
+    '/my/full/directory/droid/image-1.png',
+    '/my/full/directory/droid/image-2.png',
     # these are the iphone images
-    '/my/full/directory/image-3.png',
-    '/my/full/directory/image-4.png',
+    '/my/full/directory/ios/image-3.png',
+    '/my/full/directory/ios/image-4.png',
 ]
-
-# I would recommend saving all icon files in one directory all together
-# and then have the script grab all the images there
 
 # lets say that your root cordova project exists here:
 # /usr/myprojects/cordova_project (or ionic project)
