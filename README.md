@@ -25,3 +25,12 @@ A nice added benefit is that if the image is found to be a few pixels off, it'll
 ### If you like it use it, tweak it if you like.  I just ask that you push your changes to this repo if you do. :)
 
 Thanks!
+
+### Example:
+```ruby
+injector = CordovaImages::Injector.new(
+    :app_name => 'cordova_project',
+    :root_cordova_app_dir => '/usr/myprojects/cordova_project',
+)
+injector.run(list_of_images, '/the/directory/where/i/want/to/save/the/prepared/images', 'iphone')
+```
