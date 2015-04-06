@@ -36,6 +36,11 @@ module CordovaImages
                 :iphone => {
                     :splash => {
                         # these are the default screen names and their dimensions
+                        # new landscapes here
+                        :'Default-Landscape-736h.png' => [2208, 1242],
+                        :'Default-736h.png' => [1242,2208],
+                        :'Default-667h.png' => [750,1334],
+                        # end new
                         :'Default~iphone.png' => [320,480],
                         :'Default@2x~iphone.png' => [640,960],
                         :'Default-Portrait~ipad.png' => [768,1024],
@@ -53,6 +58,9 @@ module CordovaImages
                         :'icon-50.png' => [50,50],
                         :'icon-50@2x.png' => [100,100],
                         :'icon-60.png' => [60,60],
+                        # new icon
+                        :'icon-60@3x.png' => [180,180],
+                        # end new icon
                         :'icon-60@2x.png' => [120,120],
                         :'icon-72.png' => [72,72],
                         :'icon-72@2x.png' => [144,144],
