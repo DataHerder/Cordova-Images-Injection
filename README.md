@@ -1,5 +1,7 @@
-# Cordova-Images-Injection
+# ~~Cordova-Images-Injection~~
 ## Automate Splash Screens and Icons
+
+*With the newly introduced `ionic resources` command, this ruby script is no longer required for me.  They have a great fix.*
 
 ### This script only supports android and iphone currently
 
